@@ -59,7 +59,7 @@ const champions = {
   "Kayle":"ケイル",
   "Kayn":"ケイン",
   "Kennen":"ケネン",
-  "KhaZix":"カ＝ックス",
+  "KhaZix":"カ＝ジックス",
   "Kindred":"キンドレット",
   "Kled":"クレッド",
   "KogMaw":"コグ＝マウ",
@@ -164,3 +164,4 @@ client.on("message", message => {
 });
 
 client.login(process.env.BOT_KEY)
+client.on('error', console.error);
